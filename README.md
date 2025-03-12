@@ -51,9 +51,30 @@ nmap -sV -sC ${TARGET_IP}
 http://10.10.178.141:5000/ [200 OK] Country[RESERVED][ZZ], HTML5, HTTPServer[Werkzeug/3.0.4 Python/3.8.10], IP[10.10.178.141], Python[3.8.10], Werkzeug[3.0.4]
 ```
 
+## TELNET scripting
+
+```sh
+#!/usr/bin/env bash
+
+(
+echo open 10.129.88.30 25
+sleep 5
+echo VRFY samuel
+sleep 2
+) | telnet
+```
+
 ### links
 
 * [cvss calculator](https://www.first.org/cvss/calculator/3.1)
 * [cyberchef](127.0.0.1:8081)
+* [abuse.ch](https://abuse.ch)
+* [urlscan](https://urlscan.io)
 
 
+### Linux Privilege Escalation
+
+* [netbiosx's checklist](https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md)
+* [payload all the things](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
+* [total oscp guide](https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_-_linux.html)
+* [payatu](https://payatu.com/blog/a-guide-to-linux-privilege-escalation/)
