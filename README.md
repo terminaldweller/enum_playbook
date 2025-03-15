@@ -64,6 +64,21 @@ sleep 2
 ) | telnet
 ```
 
+## Dir Enum
+
+```sh
+gobuster dir -u "http://jewel.uploadvulns.thm/" -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 60 -x .phar,.php.phtm
+```
+
+## Passive OS fingerprinting
+
+* [satori](https://github.com/xnih/satori/)
+* [p0f](https://lcamtuf.coredump.cx/p0f3/)
+
+## Mac Ages
+
+* [mac ages](https://github.com/hdm/mac-ages)
+
 ### links
 
 * [cvss calculator](https://www.first.org/cvss/calculator/3.1)
@@ -78,3 +93,5 @@ sleep 2
 * [payload all the things](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
 * [total oscp guide](https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_-_linux.html)
 * [payatu](https://payatu.com/blog/a-guide-to-linux-privilege-escalation/)
+
+* [linpeas](https://raw.githubusercontent.com/Cerbersec/scripts/refs/heads/master/linux/linpeas.sh)
