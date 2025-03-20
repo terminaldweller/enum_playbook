@@ -42,7 +42,8 @@ parallel send_req ::: "${array[@]}"
 ## nmap report
 
 ```sh
-nmap -sV -sC ${TARGET_IP}
+sudo grc nmap -v --reason -T4 -sT -F -oG  ${TARGET_IP}
+sudo grc nmap -v --reason -T4 -sC -sV -F --version-intensity 9 -p8080 -oG ${TARGET_IP}
 ```
 
 ## Whatweb
