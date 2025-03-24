@@ -1,4 +1,3 @@
-
 ## Pentest
 
 ```sh
@@ -73,31 +72,41 @@ gobuster dir -u "http://jewel.uploadvulns.thm/" -w /usr/share/wordlists/dirbuste
 
 ## Passive OS fingerprinting
 
-* [satori](https://github.com/xnih/satori/)
-* [p0f](https://lcamtuf.coredump.cx/p0f3/)
+- [satori](https://github.com/xnih/satori/)
+- [p0f](https://lcamtuf.coredump.cx/p0f3/)
 
 ## Mac Ages
 
-* [mac ages](https://github.com/hdm/mac-ages)
+- [mac ages](https://github.com/hdm/mac-ages)
 
 ### links
 
-* [cvss calculator](https://www.first.org/cvss/calculator/3.1)
-* [cyberchef](127.0.0.1:8081)
-* [abuse.ch](https://abuse.ch)
-* [urlscan](https://urlscan.io)
-
+- [cvss calculator](https://www.first.org/cvss/calculator/3.1)
+- [cyberchef](127.0.0.1:8081)
+- [abuse.ch](https://abuse.ch)
+- [urlscan](https://urlscan.io)
 
 ### Linux Privilege Escalation
 
-* [netbiosx's checklist](https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md)
-* [payload all the things](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
-* [total oscp guide](https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_-_linux.html)
-* [payatu](https://payatu.com/blog/a-guide-to-linux-privilege-escalation/)
+- [netbiosx's checklist](https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md)
+- [payload all the things](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
+- [total oscp guide](https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_-_linux.html)
+- [payatu](https://payatu.com/blog/a-guide-to-linux-privilege-escalation/)
 
-* [linpeas](https://raw.githubusercontent.com/Cerbersec/scripts/refs/heads/master/linux/linpeas.sh)
-
+- [linpeas](https://raw.githubusercontent.com/Cerbersec/scripts/refs/heads/master/linux/linpeas.sh)
 
 ### Search Engines
-* [shodan](https://www.shodan.io/)
-* [DNSdumpster](https://dnsdumpster.com/)
+
+- [shodan](https://www.shodan.io/)
+- [DNSdumpster](https://dnsdumpster.com/)
+- [threatintelligenceplatform](https://threatintelligenceplatform.com/)
+- [viewdnsinfo](https://viewdns.info/)
+- [google_hacking_database](https://www.exploit-db.com/google-hacking-database)
+- [censys](https://search.censys.io/)
+
+### Dorking
+
+- [google](https://support.google.com/websearch/answer/2466433)
+- [duckduckgo](https://duckduckgo.com/duckduckgo-help-pages/results/syntax/)
+- [bing](https://support.microsoft.com/en-us/topic/advanced-search-options-b92e25f1-0085-4271-bdf9-14aaea720930)
+- [shodan](https://github.com/lothos612/shodan)
