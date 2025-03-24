@@ -96,3 +96,8 @@ gobuster dir -u "http://jewel.uploadvulns.thm/" -w /usr/share/wordlists/dirbuste
 * [payatu](https://payatu.com/blog/a-guide-to-linux-privilege-escalation/)
 
 * [linpeas](https://raw.githubusercontent.com/Cerbersec/scripts/refs/heads/master/linux/linpeas.sh)
+
+
+### Search Engines
+* [shodan](https://www.shodan.io/)
+* [DNSdumpster](https://dnsdumpster.com/)
