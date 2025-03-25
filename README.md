@@ -103,6 +103,11 @@ gobuster dir -u "http://jewel.uploadvulns.thm/" -w /usr/share/wordlists/dirbuste
 - [viewdnsinfo](https://viewdns.info/)
 - [google_hacking_database](https://www.exploit-db.com/google-hacking-database)
 - [censys](https://search.censys.io/)
+- [robtex](https://www.robtex.com/)
+- [whois](https://whois.domaintools.com/)
+- [alienvalut](https://otx.alienvault.com/)
+- [threatminer](https://www.threatminer.org/)
+- [hybrid-analysis](https://www.hybrid-analysis.com/)
 
 ### Dorking
 
