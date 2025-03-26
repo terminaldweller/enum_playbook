@@ -116,3 +116,8 @@ gobuster dir -u "http://jewel.uploadvulns.thm/" -w /usr/share/wordlists/dirbuste
 - [duckduckgo](https://duckduckgo.com/duckduckgo-help-pages/results/syntax/)
 - [bing](https://support.microsoft.com/en-us/topic/advanced-search-options-b92e25f1-0085-4271-bdf9-14aaea720930)
 - [shodan](https://github.com/lothos612/shodan)
+
+### 
+
+- [wpscan]()
+- [nikto]()
