@@ -121,3 +121,10 @@ gobuster dir -u "http://jewel.uploadvulns.thm/" -w /usr/share/wordlists/dirbuste
 
 - [wpscan]()
 - [nikto]()
+
+
+### spawn a pty
+
+```sh
+python3 -c 'import pty; pty.spawn("/bin/bash")'
+```
